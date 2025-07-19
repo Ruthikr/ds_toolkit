@@ -41,6 +41,7 @@ class JupyterCodeExecutor(BaseTool):
             "  - Dangerous shell commands (`rm`, `shutdown`, `kill`, `format`, etc are blocked)\n"
             "  - Unsupported languages (only Python is allowed)\n"
             "  - Improper indentation or syntax in code blocks\n\n"
+            
             "🧠 Use for step-by-step execution, debugging, and interactive workflows like EDA, feature engineering, model training, plotting, and saving files. The tool behaves like an advanced code cell in Jupyter Notebook."
         ),
         description="Detailed tool description with usage guide"
